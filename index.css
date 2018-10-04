@@ -1,0 +1,61 @@
+.strike {
+ text-decoration: line-through;
+}
+
+body {
+ background: linear-gradient(to right, #ff0066 0%, #a0448c 100%);
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+h1 {
+ padding: none;
+ margin: none;
+}
+
+p {
+ font-size: 10pt;
+}
+
+form {
+ background: white;
+ border-color: black 10px;
+ border-radius: 15px;
+ flex-direction: column;
+ display: flex;
+ padding: 5%;
+ width: 700px;
+}
+
+ol{
+ display: flex;
+ flex-direction: column;
+}
+
+li{
+ padding: 5px;
+}
+
+.complete {
+ background: white;
+ border: 2px solid rgba(255, 0, 200, 0.801);
+ border-radius: 5px;
+ justify-content: flex-start;
+ color:  rgba(255, 0, 200, 0.801);
+ margin-right: 10px;
+}
+
+.x {
+ background: none;
+ float: right;
+ border: none;
+}
+
+.add {
+background-color: rgba(255, 0, 200, 0.801);
+margin-top: 10px;
+color: white;
+height: 5vh;
+}
