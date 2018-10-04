@@ -29,12 +29,12 @@ form {
  width: 700px;
 }
 
-ol{
+ol {
  display: flex;
  flex-direction: column;
 }
 
-li{
+li {
  padding: 5px;
 }
 
@@ -43,7 +43,7 @@ li{
  border: 2px solid rgba(255, 0, 200, 0.801);
  border-radius: 5px;
  justify-content: flex-start;
- color:  rgba(255, 0, 200, 0.801);
+ color: rgba(255, 0, 200, 0.801);
  margin-right: 10px;
 }
 
@@ -54,8 +54,8 @@ li{
 }
 
 .add {
-background-color: rgba(255, 0, 200, 0.801);
-margin-top: 10px;
-color: white;
-height: 5vh;
+ background-color: rgba(255, 0, 200, 0.801);
+ margin-top: 10px;
+ color: white;
+ height: 10vh;
 }
