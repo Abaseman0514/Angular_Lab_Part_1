@@ -11,17 +11,17 @@ body {
 }
 
 h1 {
- padding: none;
- margin: none;
+ margin-bottom: 0;
 }
 
 p {
- font-size: 10pt;
+ font-size: 15pt;
+ margin-top: 0;
 }
 
 form {
  background: white;
- border-color: black 10px;
+ border: black 1px solid;
  border-radius: 15px;
  flex-direction: column;
  display: flex;
@@ -51,11 +51,17 @@ li {
  background: none;
  float: right;
  border: none;
+ font-weight: bold;
+ font-size: 20px; 
 }
 
 .add {
- background-color: rgba(255, 0, 200, 0.801);
- margin-top: 10px;
+ background: rgba(255, 0, 200, 0.801);
+ margin-top: 20px;
  color: white;
- height: 10vh;
+ height: 7vh;
+}
+
+input {
+ height: 5vh;
 }
